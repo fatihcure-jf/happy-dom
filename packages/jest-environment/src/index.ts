@@ -5,7 +5,7 @@ import * as JestUtil from 'jest-util';
 import { ModuleMocker } from 'jest-mock';
 import { LegacyFakeTimers, ModernFakeTimers } from '@jest/fake-timers';
 import { JestEnvironment, EnvironmentContext } from '@jest/environment';
-import { Window } from 'happy-dom';
+import { Window } from '@curefatih-jf/hdom';
 import { Script } from 'vm';
 import { Global, Config } from '@jest/types';
 
